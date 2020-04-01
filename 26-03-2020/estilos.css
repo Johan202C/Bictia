@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(162, 205, 247);
+}
+
+/*Aca empieza el menu*/
+
+.header{
+    background-color: #5bc7da;
+    height: 60px;
+    position:fixed;
+    width:100%;
+    box-shadow:0px 2px 8px rgb(44 ,44 ,44);
+    z-index: 100;
+}
+
+.nav{
+    /* background-color:dimgray; */
+    padding-top: 10px;
+    height: 40px;
+    width: 500px;
+    margin: auto;
+}
+
+.ul{
+    float: right;
+
+}
+
+.itemMenu{
+  list-style: none;
+  float: left;
+  margin:0 20px;  
+}
+
+.linkMenu{
+    text-decoration: none;
+    display: block;
+    border:1px solid #91b920;
+    padding: 5px 10px;
+    border-radius: 5px 0px;
+    color: firebrick;
+}
+
+.linkMenu:hover{
+    color:white;
+    background-color: firebrick;
+}
+
+
+/*Aca empieza el main*/
+
+.imgDesarrollador{
+    display:block;
+    width: 70%;
+    margin:auto;
+
+}
+
+.description{
+    margin: 0px 100px;
+    margin-top:40px;
+}  
+
+.main{
+    max-width: 1000px;
+    width: 1200px;
+    margin:auto;
+    height: 1500px;
+}
+
+.section{
+    width: 60%;
+    float:left;
+}
+ 
+.tituloPrimario{
+    text-align:center;
+    margin:80px 0px 40px 0px;
+    color: rgb(45, 206, 131);
+    font-size:3rem;
+}
+
+
+
+.aside{
+    width:25%;
+    float: right;
+    background-color: darkorange;
+    margin-top: 130px;
+    border-radius: 20px;
+    padding: 70px 20px;
+    box-shadow: 0 2px 10px #ca5121;
+    position:sticky;
+    top:90px;
+    right: 50px;
+    margin-bottom: 40px;
+
+}
+
+.imgPubli:hover{
+    box-shadow: 0 0 8px;
+    transform: scale(1.5);
+    transition: all 1s ease-in-out;
+}
+
+.imgPubli{
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all 1s ease-in-out;
+}
+.firstSmall{
+    display: block;
+    margin-bottom: 50px;
+
+}
+
+.table{
+    margin: 30px auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse:collapse; 
+    width: 75%;
+}
+
+.table th,
+.table td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.table tr:hover{
+    background-color: red;
+}
+
+.boldLetter{
+font-weight: bold;
+}
+
+/*aca empieza el footer*/
+
+.footer{
+    background-color: saddlebrown;
+    padding: 20px 0 50px;
+    height: 150px;
+}
+
+.contColsFooter{
+    width: 600px;
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+.contactTitle{
+    text-align: center;
+    color: wheat;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.colsFooter{
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.colsFooter a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.colsFooter p {
+    font-weight: 300;
+}
+
+.colsFooter a,
+.colsFooter p {
+    color:white;
+    text-align: center;
+}
+
+.colsfooter a:hover{
+    color:red;
+}

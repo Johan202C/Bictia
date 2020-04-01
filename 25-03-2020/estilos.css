@@ -1,0 +1,36 @@
+body{
+    background-color: #5FE0E5;
+}
+
+li{
+    list-style:none;
+    float:right;
+    background-color:#FEB240;
+    padding: 7px;
+    border:2px solid rgb(0, 0, 0);
+    margin:4px;
+    border-radius: 10px; 
+    float:left;
+}
+
+li:hover{
+    background-color:#F59505;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}   
+
+img{
+    background-color:black;
+    float:right;
+    padding: 100px #f4f4;
+    border:2px solid black;
+}
+
+ul{
+    float: right;
+} 
