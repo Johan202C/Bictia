@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formestilos.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main class="main">
+        <form class="contForm">
+            <div class="contInput">
+                <label for="name1">Nombre</label>
+                <input id="name1" type="text" placeholder="Primer Nombre">
+            </div>
+            <div class="contInput">
+                <label for="name2">Apellido</label>
+                <input id="name2" type="text" placeholder="Segundo Nombre">
+            </div>
+            <div class="contInput">
+                <label for="email">Correo Electronico</label>
+                <input id="email" type="email" placeholder="E-mail">
+            </div>
+            <div class="contInput">
+                <label for="tel">Telefono</label>
+                <input id="tel" type="number" placeholder="+57">
+            </div>
+            <div class="contInput">
+                <label for="Ic">Numero de Identificacion</label>
+                <input id="Ic" type="number" placeholder="Numero de Identificacion">
+            </div>
+            <div class="contInput">
+                <label for="date">Fecha de Nacimiento</label>
+                <input id="date" type="date">
+            </div>
+            <div class="contInput">
+                <label for="program">Seleccione Programa</label>
+                <select id="program">
+                    <option value="value0">Seleccione</option>
+                    <option value="value1">Programa 1</option>
+                    <option value="value2">Programa 2</option>
+                    <option value="value3">Programa 3</option>
+                    <option value="value4">Programa 4</option>
+                    <option value="value5">Programa 5</option>
+                </select>
+            </div>
+            <div class="contInput">
+                <label>Genero</label>
+
+                <label>
+                    <input type="radio" name="idGenero" value="hombre">
+                    Hombre
+                </label>
+                <label>
+                    <input type="radio" name="idGenero" value="mujer">
+                    Mujer
+                </label>
+                <label>
+                    <input type="radio" name="idGenero" value="otro">
+                    Otro
+                </label>
+            </div>
+            <div class="contInput">
+                <label for="text">Mensaje</label>
+                <textarea id="text" cols="40" rows="20">
+                </textarea>
+            </div>
+            <div class="contInput contTyC">
+                <label for="">Acepto Terminos y Condiciones</label>
+                <input type="checkbox" required>
+            </div>
+            <div class="contInput contBut">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+    </main>
+</body>
+
+</html>
