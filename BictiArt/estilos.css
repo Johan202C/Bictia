@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #005082;
+    display:flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.formLogin{
+    background-color: #1f1c1c;
+    width:30%;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    color: white;
+    font-weight: 200;
+}
+
+.formLogin input[type="text"],
+.formLogin input[type="password"]{
+    border-radius: 15px;
+    padding:14px 10px;
+    margin:15px 0px;
+    background: none;
+    text-align: center;
+    border:2px solid #3498db;
+    width: 200px;
+    color:white;
+    outline: none;
+}
+
+.formLogin input[type="text"]:hover,
+.formLogin input[type="password"]:hover{
+    width: 300px;
+    border:2px solid #40e0d0;
+    transition: all 1s;
+}

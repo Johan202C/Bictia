@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Input y Slider</title>
+</head>
+<body>
+    <main class="main">
+        <div class="slider"></div>
+        <div class="conForm">
+            <form>
+                <div class="contInputs">
+                    <label for="name">Nombre</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        placeholder="Escribe tu nombre">
+                </div>
+                <div class="contInputs">
+                    <label for="mail">Correo</label>
+                    <input 
+                        type="email" 
+                        id="mail" 
+                        placeholder="correo">
+                </div>
+                <div class="contInputs">
+                    <label for="tel">Telefono</label>
+                    <input 
+                        type="tel" 
+                        id="tel" 
+                        placeholder="telephon Nomber">
+                </div>
+                <div class="contInputs">
+                    <label for="ic">Documento de Identidad</label>
+                    <input 
+                        type="number" 
+                        id="ic" 
+                        placeholder="identification card">
+                </div>
+                <div class="contInputs">
+                    <label for="date">Fecha de Nacimiento</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="contInputs">
+                    <label for="program" >seleccione proframa</label>
+                    <select id="program">
+                        <option value="value0">Selection</option>
+                        <option value="value1">program 1</option>
+                        <option value="value2">program 2</option>
+                        <option value="value3">program 3</option>
+                        
+                    </select>
+                    
+                </div>
+                <div class="contInputs">
+                    <label >Genero</label>
+                    
+                    <label>
+                        <input type="radio" name="gender" value="mujer">
+                        mujer
+                    </label>
+
+                    <label>
+                        <input type="radio" name="gender" value="hombre">
+                        Hombre
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="otro">
+                        Otro
+                    </label>
+                </div>
+
+                <div class="contInputs">
+                    <label for="msg">Mensaje</label>
+                    <textarea id="msg" cols="40" rows="5">
+                    </textarea>
+                    <!-- Aqui da el espacio para escribir -->
+                </div>
+
+                <div class="contInputs contTyC">
+                    <label for="TyC"> Acepto terminos</label>
+                    <input type="checkbox" id="TyC" required>
+                </div>
+
+                <div class="contInputs contBut">
+                    <button type="submit">Enviar</button>
+                </div>
+                
+            </form> 
+        </div>
+    </main>
+</body>
+</html>

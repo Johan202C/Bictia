@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conForm{
+    width: 60%;
+    margin: 50px auto 0;
+}
+
+.contInputs{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contInputs input,
+.contInputs select,
+.contInputs textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(177, 177, 177);
+    font-size: 14px;
+}
+
+.comtInputs input ::placeholder{
+    color:coral;
+}
+
+
+.contInputs input:focus,
+.contInputs textarea:focus,
+.contInputs select:focus {
+    background-color: cadetblue;
+    box-shadow: 0 0 4px dimgrey;
+    transition: all 3s ease-in-out;
+}
+
+.contInputs textarea{
+    resize:none;
+    /* que tanto el usuario puede mover la caja de texto "mensaje"
+     */
+}
+
+.contInputs input:hover,
+.contInputs textarea:hover,
+.contInputs select:hover{
+    background-color: rgb(144, 243, 247);
+}
+.contBut{
+    justify-content: center;
+    align-items: center;
+}
+.contBut button{
+    padding: 10px 20px;
+    background-color: brown;
+    color: cornsilk;
+    border-bottom: 10px;
+    border:none;
+    font-size: 14px;
+    transition: all .4s ease-in-out;
+    border-radius: 10px;
+}
+
+.contInputs button:hover{
+    transform:scale(1.3);
+    transition: all .4s ease-in-out;
+}
+.contTyC{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.conTyC input{
+    margin-right: 20px;
+}
