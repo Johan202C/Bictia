@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.contBody{
+    background-color: thistle;
+    width: 100%;
+    height: 1500px;
+}
+
+.main{
+    background-color: teal;
+    width: 100%;
+    height: 1500px;
+}
+
+/* --------------------------------Aqui empieza el Footer-------------------------------------- */
+.contFooter{
+    background-color: tomato;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.contDiv{
+   display: flex;
+   flex-direction: column;
+   width: 32%;
+   height: 60px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contDiv p,
+.contDiv a{
+    padding:5px auto;
+    margin: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.contDiv a:hover{
+    font-size: 30px;
+    transition: all 0.4s ease-in-out;
+}
