@@ -47,17 +47,18 @@
     transition: all 1s;
 }
 
-.formLogin input[type="submit"]{
+.formLogin a{
     border-radius: 15px;
     padding:14px 10px;
     margin:15px 0px;
-    background: none;
+    text-decoration: none;
     border:1.5px solid #40e0d0;
-    width: 100px;
+    width: 70px;
     color:white;
     outline: none;
+    text-align: center;
 }
 
-.formLogin input[type="submit"]:hover{
+.formLogin a:hover{
     background-color:#40e0d0;
 }
