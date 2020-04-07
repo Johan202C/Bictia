@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contImgTxt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.img,
+.txt {
+    width: 48%;
+}
+
+.txt {
+    background-color: rgb(255, 208, 193);
+    padding: 20px 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.img img {
+    width: 100%;
+}
+
+.txt p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer{
+    background-color: darkcyan;
+    margin:auto;
+    max-width: 1200px;
+    height: 100px;
+    display:flex;
+
+}
+
+.footer>div{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    padding:5px 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:768px) {
+    .contImgTxt {
+        flex-direction: column;
+    }
+
+    .img,
+    .txt {
+        width: 100%;
+    }
+
+    .title {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+
+    .txt p {
+        color: darkslateblue;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .title {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .txt p {
+        letter-spacing: 3px;
+    }
+}
+
+
