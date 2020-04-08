@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device, initial-scale=1.0">
     <link rel="stylesheet" href="estilosHome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Home</title>
-</header>
-<body class="contBody">
-    <main class="main">
+</head>
 
+<body>
+    <header class="contHeader"> 
+        <img class="imgLogo" src="./../login/pics/logoPNG.png" alt="">
+        <div class="divMenu">
+            <ul class="conMenu">
+                <li class="itemMenu"><a href="#" class="linkMenu">Home</a></li>
+                <li class="itemMenu"><a href="#" class="linkMenu">Nosotros</a></li>
+                <li class="itemMenu"><a href="#" class="linkMenu">Eventos</a></li>
+                <li class="itemMenu"><a href="#" class="linkMenu">Contacto</a></li>
+                <li class="itemMenu"><a href="#" class="linkMenu">Otros</a></li>
+            </ul>
+        </div>
+        <div class="divBuscador"> 
+            <input type="search" placeholder="buscar">
+                <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="contSlider">
+            <ul class="slider">
+                <li id="slide1" class="slide firstSlide">
+                    <div class="img1 contImg"></div>
+                </li>
+                <li id="slide2" class="slide">
+                    <div class="img2 contImg"></div>
+                </li>
+                <li id="slide3" class="slide">
+                    <div class="img3 contImg"></div>
+                </li>
+                <li id="slide4" class="slide">
+                    <div class="img4 contImg"></div>
+                </li>
+                <li id="slide5" class="slide">
+                    <div class="img5 contImg"></div>
+                </li>
+            </ul>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#slide1">AdrianCier</a></li>
+                    <li><a href="#slide2">Carlox Angarita</a></li>
+                    <li><a href="#slide3">Kory Angarita</a></li>
+                    <li><a href="#slide4">Michela Bottin</a></li>
+                    <li><a href="#slide5">Nico Vera</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="artista artistaUno">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic inventore ea labore iusto,
+                 officia molestias minima temporibus cumque, iure ex veniam molestiae. Corrupti inventore recusandae
+                  ratione unde odit nihil?
+            </p>
+            <img src="./pics/KoryAngarita/kory.png" alt="Una foto de kory Angarita">
+        </div>
+        <div class="artista artistaDos">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic inventore ea labore iusto,
+                 officia molestias minima temporibus cumque, iure ex veniam molestiae. Corrupti inventore recusandae
+                  ratione unde odit nihil?
+            </p>
+            <img src="./pics/michelabottin/michela.png" alt="Una foto de Michaela Bottin">
+
+        </div>
     </main>
 
 </body>

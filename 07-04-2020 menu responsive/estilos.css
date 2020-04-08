@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    box-shadow: 0px 2px 8px #333;
+    display: flex;
+    align-items: center;
+}
+
+.hamburguer{
+    width: 90%;
+}
+
+.picMenu{
+    width: 32px;
+    cursor: pointer;
+}
+
+.contHamburguerMenu,
+.hamburguerCheck{
+    display: none;
+}
+
+.contMenu{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px 0;
+}
+
+.itemMenu{
+    list-style: none;
+    margin: 0px 30px;
+    border-right: 1px solid olive;
+}
+
+.linkMenu{
+    text-decoration: none;
+    display: block;
+    padding:15px 10px;
+    color: #333;
+}
+
+.logo{
+    width: 100px;
+}
+
+@media screen and (max-width:768px){
+    .contHamburguerMenu{
+        display:block;
+        padding: 10px 0;
+
+    }
+    .contMenu{
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgb(36, 204, 255);
+        transform: translateX(-110%);
+        transition: all .3s ease-in-out;
+    }
+    .hamburguerCheck:checked+.contMenu{
+        transform: translateX(0);
+    }
+     /* cuando este chekiado con el chulido le agregue las propiedades al +.contMenu (+ es el hermano unmediato) */
+    .itemMenu{
+        border-right: none;
+        border-bottom: 1px solid #dbdbdb;
+    }
+
+    .picMenu{
+        margin-left:40px;
+        margin-top: 10px;
+    }
+    .nav{
+        box-shadow: none;
+        align-items: flex-start;
+    }
+    .logo{
+        order:2;
+        margin-right: 40px;
+    }
+  
+}

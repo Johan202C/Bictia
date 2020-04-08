@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 800px;
+}
+
+/* ------------------------------------aqui empieza el header ---------------------------------*/
+
+.contHeader{
+    width: 100%;
+    height: 150px;
+    background-color:#323232;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.divMenu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding:10px 0 ;
+}
+
+.itemMenu{
+    list-style: none;
+    margin: 0px 50px;
+}
+
+.linkMenu{
+    text-decoration: none;
+    display: block;
+    padding:11px 5px;
+    color: white;
+    font-size: 19px;
+}
+
+.imgLogo{
+    width: 200px;
+}
+
+.divBuscador input{
+    width: 180px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    padding: 6px 4px;
+}
+
+.fa-search{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+/* ------------------------------------aqui empieza el Formulario ---------------------------------*/
+.main{
+    background-color:rgb(94, 94, 94);
+    width: 100%;
+    height: 1400px;
+
+}
+
+.contForm{
+    width: 40%;
+    margin:auto;
+    padding-top: 50px;
+}
+
+.contInput{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.contInput input{
+    margin-top: 15px;
+}
+
+.contInput input,
+.contInput select,
+.contInput textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 2px 10px;
+    font-size: 17px;
+}
+
+.contInput input::placeholder{
+    color:rgb(212, 212, 212);
+
+}
+
+.contInput textarea{
+    resize: none;
+}
+
+.contInput input:focus,
+.contInput select:focus,
+.contInput textarea:focus{
+    background-color: rgb(226, 226, 226);
+    box-shadow: 7px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.contInput input:hover,
+.contInput select:hover{
+    background-color: #d4ebd0;
+}
+
+.contBut{
+   justify-content: center;
+   align-items: center;
+}
+
+.contBut button{
+    padding: 10px 20px;
+    border-bottom: 10px;
+    border:none;
+    background-color: brown;
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+}
+
+.contInput button:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.contTyC{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contTyC input{
+    margin-right: 20px;
+    margin-bottom: 11px;
+}
+
+/* ------------------------------------aqui empieza el Footer ---------------------------------*/
+
+.contFooter{
+    background-color:#323232;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.contDiv{
+   display: flex;
+   flex-direction: column;
+   width: 32%;
+   height: 60px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contDiv p,
+.contDiv a{
+    padding:5px auto;
+    margin: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.contDiv a:hover{
+    font-size: 30px;
+    transition: all 0.4s ease-in-out;
+}
