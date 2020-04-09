@@ -6,14 +6,14 @@
 
 .body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #005082;
+    background-color: rgb(94, 94, 94);
     display:flex;
     justify-content: center;
     margin-top: 170px;
 }
 
 .formLogin{
-    background-color: #1f1c1c;
+    background-color: #323232;
     width:30%;
     height: 400px;
     display:flex;
@@ -47,7 +47,20 @@
     transition: all 1s;
 }
 
-.formLogin .inpPower{
+.formLogin a{
+    border-radius: 15px;
+    padding:11px 10px;
+    margin:15px 0px;
+    text-decoration: none;
+    border:1.5px solid #40e0d0;
+    width: 70px;
+    outline: none;
+    text-align: center;
+    color: white;
+
+}
+
+/* .formLogin .inpPower{
     border-radius: 15px;
     padding:11px 10px;
     margin:15px 0px;
@@ -58,7 +71,7 @@
     text-align: center;
     color: white;
 }
-
-.formLogin .inpPower:hover{
+ */
+.formLogin a:hover{
     background-color:#40e0d0;
 }

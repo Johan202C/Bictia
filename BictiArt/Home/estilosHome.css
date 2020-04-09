@@ -72,6 +72,7 @@ ul.slider{
     height: 540px;
 }
 
+
 ul.slider .slide{
     position: absolute;
     opacity: 0;
@@ -86,7 +87,7 @@ ul.slider li:target{
     opacity:1;
 }
 
-ul.slider .firsSlide{
+ul.slider .firstSlide{
     opacity: 1;
 }
 
