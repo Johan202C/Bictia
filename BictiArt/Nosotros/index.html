@@ -10,19 +10,23 @@
 
 <body>
     <header class="contHeader"> 
-        <img class="imgLogo" src="./../login/pics/logoPNG.png" alt="logo">
+        <img class="imgLogo" src="./../login/pics/logoPNG.png" alt="">
         <div class="divMenu">
+            <label for="hamb" class="conlabelHamb">
+                <img src="./../Home/pics/menu-white.png" alt="menuHamb" class="picHamburguer">
+            </label>
+            <input type="checkbox" id="hamb" class="hambCheck">
+        
             <ul class="conMenu">
                 <li class="itemMenu"><a href="./../Home/home.html" class="linkMenu">Home</a></li>
                 <li class="itemMenu"><a href="./../Nosotros/index.html" class="linkMenu">Nosotros</a></li>
                 <li class="itemMenu"><a href="./../Eventos/index.html" class="linkMenu">Eventos</a></li>
                 <li class="itemMenu"><a href="./../Contacto/formu.html" class="linkMenu">Contacto</a></li>
                 <li class="itemMenu"><a href="#" class="linkMenu">Otros</a></li>
-            </ul>
-        </div>
-        <div class="divBuscador"> 
-            <input type="search" placeholder="buscar">
+                <input type="search" placeholder="buscar" class="inpSerch">
                 <i class="fas fa-search"></i>
+            </ul>
+            
         </div>
     </header>
 </body>

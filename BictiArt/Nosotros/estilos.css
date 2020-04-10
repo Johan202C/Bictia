@@ -8,28 +8,44 @@ body{
     width: 100%;
     height: 2000px;
 }
-/* --------------------------------Aqui empieza el head-------------------------------------- */
+/* --------------------------------Aqui empieza el header-------------------------------------- */
 
 .contHeader{
-    width: 100%;
     height: 150px;
     background-color:#323232;
     display: flex;
     align-items: center;
-    justify-content:space-around;
 }
 
-.divMenu ul{
-    display: flex;
-    align-items: center;
+.divMenu{
+    width: 90%;
+}
+
+.picHamburguer{
+    width: 32px;
+    cursor: pointer;
+}
+
+.imgLogo{
+    width: 200px;
+}
+
+.conlabelHamb,
+.hambCheck{
+    display:none;
+}
+
+.conMenu{
+    display:flex;
     justify-content: flex-end;
-    padding:10px 0 ;
+    padding: 10px 0;
 }
 
 .itemMenu{
     list-style: none;
     margin: 0px 50px;
 }
+
 
 .linkMenu{
     text-decoration: none;
@@ -39,22 +55,19 @@ body{
     font-size: 19px;
 }
 
-.imgLogo{
-    width: 200px;
-}
-
-.divBuscador input{
-    width: 180px;
-    border-radius: 15px 0px 0px 15px;
-    border: none;
-    padding: 6px 4px;
+.conMenu .inpSerch{
+    padding:3px;
+    font-size: 15px;
+    border-radius: 15px 0px 0px 15px ;
 }
 
 .fa-search{
     background-color: black;
     color: white;
-    padding: 8px;
+    padding:15px 9px 0px 8px;
     border-radius: 0px 15px 15px 0px;
+    margin-right: 40px;
+    
 }
 
 /* --------------------------------Aqui empieza el Main-------------------------------------- */
@@ -145,4 +158,66 @@ body{
 .contDiv a:hover{
     font-size: 30px;
     transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width:768px){
+    /* -----------------------------------------------------header- */
+    .conlabelHamb{
+        display:block;
+        padding:10px 0px;
+    }
+    .conMenu{
+        flex-direction: column;
+        background-color: grey;
+        transform:translateX(-110%)
+    }
+    .picHamburguer{
+        margin-left: 40px;
+    }
+    .hambCheck:checked+.conMenu{
+        transform: translateX(0);
+    }
+    .conMenu .inpSerch{
+        display:none;
+    }
+    .conMenu .fa-search{
+        display: none;
+    } 
+    .contHeader{
+        align-items: flex-start;
+    }
+    .imgLogo{
+        order: 2;
+        margin-right: 15px;
+    }
+    .itemMenu{
+        border-bottom: 1px solid black;
+    }
+    .contGalery div{
+        width: 50%;
+    }
+    .main{
+        height: 3000px;
+    }
+
+/* ------------------------------------------------------footer */
+    .contFooter{
+        flex-direction: column;
+        height: 360px;
+        align-items: center;
+    }
+    .contFooter div{
+        width: 300px;
+        border-bottom: 1px solid black;
+    }
+   .contDiv p,
+    .contDiv a{
+        font-size: 15px;
+    }
+    .contDiv a:hover{
+        font-size: 18px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    
 }
