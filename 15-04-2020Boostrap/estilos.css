@@ -1,0 +1,13 @@
+.imgLogo{
+    width: 100%
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemLink{
+    text-decoration: none;
+}
