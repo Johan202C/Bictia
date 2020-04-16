@@ -1,11 +1,14 @@
+.navrow,
+.footer{
+    height: 120px;
+}
+
 .menu{
     display: flex;
     list-style: none;
+    margin:auto;
 }
 
-.cont{
-    height:100px;
-}
 .menu a{
     padding: 15px;
     border-radius: 10px;
@@ -13,23 +16,15 @@
 }
 
 .menu a:hover{
-   color: rgb(255, 255, 255);
-   background-color: darkblue;
-   text-decoration: none;
-}
-
-.row{
-    display: flex;
-    align-items: center;
-}
-.navrow{
-    height: 120px;
-}
-
-.divcolor{
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    text-decoration: none;
+ }
+ 
+ .divcolor{
     height: 500px;
 }
 
-.divfooter{
-    height: 150px;
+.arti{
+    height:200px;
 }
