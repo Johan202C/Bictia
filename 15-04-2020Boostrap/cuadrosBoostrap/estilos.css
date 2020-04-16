@@ -1,0 +1,35 @@
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.cont{
+    height:100px;
+}
+.menu a{
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 2px crimson;
+}
+
+.menu a:hover{
+   color: rgb(255, 255, 255);
+   background-color: darkblue;
+   text-decoration: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+.navrow{
+    height: 120px;
+}
+
+.divcolor{
+    height: 500px;
+}
+
+.divfooter{
+    height: 150px;
+}
