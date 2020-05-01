@@ -72,3 +72,4 @@ const estudiante1 = {
 }
 
 console.log(estudiante1)
+document.write(genios);
