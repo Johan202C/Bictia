@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.rojo,
+.verde,.yellow{
+    height: 250px;
+    width: 250px;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: greenyellow;
+
+}
+.yellow{
+    background-color:yellow;
+}
