@@ -62,9 +62,25 @@ if (numero1, numero2 < 0){
 }
  */
 
-const numero = parseInt (prompt('escriba un numero'));
+/* const numero = parseInt (prompt('escriba un numero'));
 
 const hora=Math.floor(numero/60);
 const minutos=numero%60;
 
-console.log(`${hora}:${minutos}`)
+console.log(`${hora}:${minutos}`) */
+
+
+//Este es una practica de pedir correo y contrasena------------------------------------------------
+
+/* const correoGuardado = "jaycxlll@gmail.com";
+const passGuardada = "johan123456";
+
+const pedirCorreo = prompt("Escriba su correo electronico: ");
+const pedirPassword = prompt("Escribe la contrasena: ");
+
+if(pedirCorreo == correoGuardado && pedirPassword == passGuardada){
+    alert("bienvenido Johan");
+}else{
+    alert("Password o Correo incorrectos");
+}
+ */

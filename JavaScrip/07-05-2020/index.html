@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+        <style>
+            .formulario {
+                transform: translateY(-500px);
+                transition: all .5s ease-in-out;
+            }
+
+            .showForm {
+                transform: translateY(50px);
+                transition: all .5s ease-in-out;
+            }
+
+            .menu {
+                max-width: 1100px;
+                margin-left: 50px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .hide {
+                display: none;
+            }
+        </style>
+  </head>
+  <body>
+    <div class="menu">
+      <button id="singUp">Registrarse</button>
+      <form action="" id="formIngreso">
+        <input type="text" placeholder="nombre" id="nameIngreso">
+        <input type="password" placeholder="password" id="passwordIngreso">
+        <button type="submit">ingresar</button>
+      </form>
+    </div>
+    <div class="menu2 hide">
+        <p class="usuario"></p>
+        <form action="" id="logout">
+            <button type="submit">salir</button>
+        </form>
+    </div>
+
+    <form action="" class="formulario"id="formularioGuardar">
+        <input type="text"placeholder="nombre"id="name">
+        <br>
+        <br>
+        <input type="password"placeholder="contrasena"id="password">
+        <br>
+        <br>
+        <button type="submit">guardar</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
