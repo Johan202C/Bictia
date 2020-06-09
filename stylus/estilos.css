@@ -1,4 +1,1 @@
-body {
-  background-color: #f00;
-  padding: 20;
-}
+*{margin:0;padding:0}body{background-color:#393e46;padding:20;height:1000px}.main{width:100%;max-width:1510px;padding:5px;height:100px;display:flex;background-color:#32e0c4}.hamburguerMenu{height:200px}.logo{width:200px;height:200px}.menu{display:flex;justify-content:right;width:100%;padding-right:20px}.menu .menu__item{padding:10px;list-style:none}.menu .menu__item a{text-decoration:none;font-size:20px}
