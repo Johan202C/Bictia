@@ -20,11 +20,16 @@
 }
 
 .spaceTecl{
-    width: 720px;
+    width: 730px;
     height: 200px;
     margin:auto;
 } 
 
+.areaTex{
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    
+}
 
 
 button{
